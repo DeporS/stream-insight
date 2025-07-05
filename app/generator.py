@@ -10,6 +10,7 @@ KAFKA_BOOTSTRAP_SERVERS = "localhost:9092"
 
 
 def generate_order(client_id):
+    # Price ranges based on products
     price_ranges = {
         "laptop": (500, 2000),
         "keyboard": (50, 200),
