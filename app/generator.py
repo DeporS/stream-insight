@@ -25,6 +25,7 @@ def generate_order(client_id):
 
     user_id = random.randint(1, 1000)
     
+    # Region based on user_id mod
     mod = user_id % 10
     if 0 <= mod < 4:
         region = "US"
