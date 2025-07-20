@@ -39,4 +39,6 @@ In `#1` terminal `uvicorn app.main:app --reload`
 
 5. Open docs at `http://localhost:8000/docs` or use `curl`:
 
-curl -X POST "http://localhost:8000/start?clients=20"
+`curl -X POST "http://localhost:8000/start?clients=20"`
+`curl -X GET "http://localhost:8000/stats"`
+`curl -X POST "http://localhost:8000/stop"`

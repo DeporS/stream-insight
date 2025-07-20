@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 import asyncio
-from app.generator import start_clients, stop_clients, get_stats
+from generator import start_clients, stop_clients, get_stats
 
 app = FastAPI()
 
